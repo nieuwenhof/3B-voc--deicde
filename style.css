@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* CSS HEX */
+--vinho: #780000ff;
+--vermelho: #c1121fff;
+--amarelo: rgb(248, 207, 125);
+--azulado: #003049ff;
+--azulzinho: #669bbcff;
+--fonte-texto:"Playfair Display", serif;
+--fonte-titulo:"Merriweather", serif;
+}
