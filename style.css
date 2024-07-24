@@ -8,8 +8,44 @@
 --vinho: #780000ff;
 --vermelho: #c1121fff;
 --amarelo: rgb(248, 207, 125);
---azulado: #003049ff;
---azulzinho: #669bbcff;
+--azulado: rgb(252, 252, 252);
+--azulzinho: rgb(0, 0, 0);
 --fonte-texto:"Playfair Display", serif;
 --fonte-titulo:"Merriweather", serif;
+}
+
+body{
+    background-color: var(--vinho);
+    color: var(--azulzinho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--azulado);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    color: var(--azulzinho);
+    font-family: var(--fonte-titulo);
+}
+button{
+    background-color: var(--amarelo);
+    color: var(--azulzinho);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px 10px;
+}
+
+button:hover{
+    background-color: var(--vermelho);
 }
