@@ -6,15 +6,15 @@ const textoResultado= document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "Enunciado 01",
+        enunciado: "De acordo com a OMS muitas mulheres morrem e milhões são hospitalizadas em todo o mundo anualmente com complicações causadas por abortos inseguras, você é afavor da legalizção do aborto?",
         alternativas: [
             {
-                texto:"alternativa 1",
-                afirmacao: "resultado 21"
+                texto:"Sou afavor da legalização pois todas mulheres deveriam ter direito sobre seu corpo e se quer gerar",
+                afirmacao: "Eu acho que todas mulheres deveriam sim ter controle sobre o que faz com seu corpo, se quer gerar ou não, esta mulher não deveria passar a ser julgada por sua escolha"
             },
             {
-                texto:"alternativa 2",
-                afirmacao: "resultado 2"
+                texto:"Não sou afavor da legalização pois muitas mulheres se submetem a fazer relação sexual mesmo sabendo da possibilidade de uma gestação.",
+                afirmacao: "Eu não sou afavor da legalização pois existem metodos contraceptivos para evitar uma gravidez s"
             }
             
             
