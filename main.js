@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto:"Não sou afavor da legalização pois muitas mulheres se submetem a fazer relação sexual mesmo sabendo da possibilidade de uma gestação.",
-                afirmacao: "Eu não sou afavor da legalização pois existem metodos contraceptivos para evitar uma gravidez e pessoas que se submetem fazer relação sem preservativo não deveria ter responsabilidade em acabar com uma vida."
+                afirmacao: "Eu não sou afavor da legalização do aborto pois existem metodos contraceptivos para evitar uma gravidez e pessoas que se submetem fazer relação sem preservativo não deveria ter responsabilidade em acabar com uma vida."
             }
             
             
@@ -29,7 +29,7 @@ const perguntas = [
             },
                 {
                     texto:"Não sou afavor do aborto pois o feto não tem culpa sobre o que ocorreu e quem acaba interrompendo deveria sim ser condenado",
-                    afirmacao: "Eu não sou afavor do aborto mesmo em caso de estrupo pois o feto não teve culpa sobre o que ocorreu e acho sim que a mulher que interrompe uma gestação deve ser condenada"
+                    afirmacao: "Não deveria ocorrer o aborto mesmo em caso de estrupo pois o feto não teve culpa sobre o que ocorreu e acho que a mulher que interrompe uma gestação deve ser condenada"
                 }
             
             
@@ -44,7 +44,7 @@ const perguntas = [
             },
             {
                 texto:"Não sou afavor e acho isso um absurdo pois se fez filho tem obrigação de criar e cuidar.",
-                afirmacao:"Sou contra pois defendo a proteção do direito a vida mesmo de um feto e sendo iberado muits mulheres estriam violando os direito de vida deste feto pois cada ser humano tem seu valor e direito a vida."
+                afirmacao:"Defendo a proteção do direito a vida mesmo de um feto e sendo iberado muits mulheres estariam violando os direito de vida deste feto pois cada ser humano tem seu valor e direito a vida."
             }
             
             
@@ -59,7 +59,7 @@ const perguntas = [
             },
             {
                 texto:"Acredito que seja sim negligência da gestante",
-                afirmacao:"È negliência da mulher pois deveria ter tomaado sim devidos cuidados sabendo quje carrega uma vida dentro de si"
+                afirmacao:"È negliência da mulher que ocorre o aborto espontâneo pois deveria ter tomado devidos cuidados sabendo que carrega uma vida dentro de si e deveria ter responsabilidade sobre."
             }
             
         
@@ -73,12 +73,13 @@ const perguntas = [
             afirmacao:"O aborto deveria ser liberado em todas estas situações, acredito que a mulher deve controlar sobre o que quer ou não fazer com seu proprio corpo"
         },
         {
-            texto:"Ainda continuo sendo contra o aborto somente em alguns casos como o de estrupo",
-            afirmacao:"Sou contra o aborto e qualquer situação somente envolvend estrupos pois além disso todos que se relacionam sabe que existe a possibilidade de engravidar"
+            texto:"Ainda  sendo contra o aborto somente em alguns casos como o de estrupo",
+            afirmacao: "Não apoio o aborto mas em situação somente envolvendo estrupos pois além disso todos que se relacionam sabe que existe a possibilidade de engravidar e não devem ter direito em acabar com uma vida."
         }
-           
-            
         ]
+            
+
+        
     },
 ]
 let atual = 0;
@@ -113,7 +114,7 @@ function mostrarAlternativas(){
     }
 
     function mostraResultado(){
-        caixaPerguntas.textContent = "inicio do texto...";
+        caixaPerguntas.textContent = "...";
         textoResultado.textContent = historiaFinal;
         caixaAlternativas.textContent = "";
     }
